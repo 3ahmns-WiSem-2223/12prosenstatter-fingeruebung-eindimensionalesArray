@@ -15,4 +15,9 @@ Welcher Index repräsentiert generisch die letzte Stelle im Array?
 n-1
 
 
+![grafik](https://user-images.githubusercontent.com/114597978/201769534-59421987-0488-4d65-9146-cd9c4e282e8b.png)
+
+
+
+
 
