@@ -87,16 +87,65 @@ public class Fingeruebung : MonoBehaviour
 
         }
 
+        string[] array8 = new string[101];
+        for (int i = 0; i < array8.Length; i++)
+        {
+            if (i % 2 == 0)
+            {
+                array8[i] = "a";
+            }
+
+            else if (i % 2 == 1)
+            {
+                array8[i] = "b";
+            }
+        }
+
+        int[] array9 = new int[1001];
+        for (int i = 0; i < array9.Length; i++)
+        {
+            array9[i] = Random.Range(0, 1000);
+            Debug.Log(array9[i]);
+        }
+
+        System.Array.Sort(array9);
+
+        for (int i = 0; i < array9.Length; i++)
+        {
+            Debug.Log(array9[i]);
+        }
+
+
+        int[] array11 = new int[1001];
+        for (int i = 0; i < array11.Length; i++)
+        {
+            array11[i] = Random.Range(0, 1000);
+            Debug.Log(array9[i]);
+        }
+
+        System.Array.Sort(array11);
+
+        Debug.Log(array11[0] + " und " + array11[array11.Length - 1]);
 
 
 
+        int[] array12 = new int[1001];
+        for (int i = 0; i < array12.Length; i++)
+        {
+            array12[i] = Random.Range(0, 1000);
+        }
 
+        int randomNumber = Random.Range(0, 1000);
 
-
-
+        Debug.Log(System.Array.IndexOf(array12, randomNumber));
     }
 
+
+
+
 }
+
+
 
 
 
